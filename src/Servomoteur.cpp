@@ -4,39 +4,10 @@
 //  
 
 Servomoteur::Servomoteur () {
-initAttributes();
+
 }
 
 Servomoteur::~Servomoteur () { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Public static attribute accessor methods
-//  
-
-
-// Public attribute accessor methods
-//  
-
-
-// Protected static attribute accessor methods
-//  
-
-
-// Protected attribute accessor methods
-//  
-
-
-// Private static attribute accessor methods
-//  
-
 
 // Private attribute accessor methods
 //  
@@ -60,9 +31,4 @@ int Servomoteur::getPosition () {
 	return position;
 }
 
-// Other methods
-//  
-
-void Servomoteur::initAttributes () {
-}
 

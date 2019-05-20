@@ -4,38 +4,9 @@
 //  
 
 Capteur::Capteur () {
-initAttributes();
 }
 
 Capteur::~Capteur () { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Public static attribute accessor methods
-//  
-
-
-// Public attribute accessor methods
-//  
-
-
-// Protected static attribute accessor methods
-//  
-
-
-// Protected attribute accessor methods
-//  
-
-
-// Private static attribute accessor methods
-//  
 
 
 // Private attribute accessor methods
@@ -80,11 +51,5 @@ void Capteur::setMesures (vector<float> new_var) {
  */
 vector<float> Capteur::getMesures () {
 	return mesures;
-}
-
-// Other methods
-//  
-
-void Capteur::initAttributes () {
 }
 

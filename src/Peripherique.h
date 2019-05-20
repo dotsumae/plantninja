@@ -27,22 +27,7 @@ public:
 	 */
 	virtual ~Peripherique ();
 
-	// Static Public attributes
-	//  
-
-	// Public attributes
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-
+	
 	/**
 	 * Reinitialise le peripherique.
 	 * @return boolean
@@ -50,9 +35,6 @@ public:
 	virtual boolean reset ();
 
 protected:
-
-	// Static Protected attributes
-	//  
 
 	// Protected attributes
 	//  
@@ -69,13 +51,6 @@ protected:
 	boolean etat;
 	// Intervalle de valeurs acceptees (actionneurs) ou renvoyees (capteurs) par le peripherique.
 	int intervalle[2];
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
 
 public:
 
@@ -152,36 +127,6 @@ public:
 	 * @return the value of intervalle
 	 */
 	int* getIntervalle ();
-
-protected:
-
-
-private:
-
-	// Static Private attributes
-	//  
-
-	// Private attributes
-	//  
-
-public:
-
-
-	// Private attribute accessor methods
-	//  
-
-private:
-
-public:
-
-
-	// Private attribute accessor methods
-	//  
-
-private:
-
-
-	void initAttributes () ;
 
 };
 

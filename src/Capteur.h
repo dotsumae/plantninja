@@ -28,44 +28,7 @@ public:
 	 */
 	virtual ~Capteur ();
 
-	// Static Public attributes
-	//  
 
-	// Public attributes
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-protected:
-
-	// Static Protected attributes
-	//  
-
-	// Protected attributes
-	//  
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
 
 
 private:
@@ -82,13 +45,7 @@ private:
 	boolean analogique;
 	// Mesures recentes du capteur. La valeur est toujours normalisee.
 	vector<float> mesures;
-public:
 
-
-	// Private attribute accessor methods
-	//  
-
-private:
 
 public:
 
@@ -129,11 +86,6 @@ public:
 	 * @return the value of mesures
 	 */
 	vector<float> getMesures ();
-
-private:
-
-
-	void initAttributes () ;
 
 };
 

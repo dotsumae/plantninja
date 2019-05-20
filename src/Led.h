@@ -28,45 +28,6 @@ public:
 	 */
 	virtual ~Led ();
 
-	// Static Public attributes
-	//  
-
-	// Public attributes
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-protected:
-
-	// Static Protected attributes
-	//  
-
-	// Protected attributes
-	//  
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
-
 
 private:
 
@@ -78,13 +39,6 @@ private:
 
 	// luminosite de la LED entre 0 et 1.
 	float luminosite;
-public:
-
-
-	// Private attribute accessor methods
-	//  
-
-private:
 
 public:
 
@@ -107,10 +61,6 @@ public:
 	 */
 	float getLuminosite ();
 
-private:
-
-
-	void initAttributes () ;
 
 };
 

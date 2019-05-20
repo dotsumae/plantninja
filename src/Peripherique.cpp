@@ -4,30 +4,9 @@
 //  
 
 Peripherique::Peripherique () {
-initAttributes();
 }
 
 Peripherique::~Peripherique () { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Public static attribute accessor methods
-//  
-
-
-// Public attribute accessor methods
-//  
-
-
-// Protected static attribute accessor methods
-//  
 
 
 // Protected attribute accessor methods
@@ -116,14 +95,6 @@ int* Peripherique::getIntervalle () {
 	return intervalle;
 }
 
-// Private static attribute accessor methods
-//  
-
-
-// Private attribute accessor methods
-//  
-
-
 // Other methods
 //  
 
@@ -136,6 +107,4 @@ boolean Peripherique::reset ()
 {
 }
 
-void Peripherique::initAttributes () {
-}
 

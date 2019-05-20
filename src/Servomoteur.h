@@ -28,44 +28,6 @@ public:
 	 */
 	virtual ~Servomoteur ();
 
-	// Static Public attributes
-	//  
-
-	// Public attributes
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-protected:
-
-	// Static Protected attributes
-	//  
-
-	// Protected attributes
-	//  
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
 
 
 private:
@@ -78,13 +40,6 @@ private:
 
 	// Position du servomoteur en degres.
 	int position;
-public:
-
-
-	// Private attribute accessor methods
-	//  
-
-private:
 
 public:
 
@@ -106,11 +61,6 @@ public:
 	 * @return the value of position
 	 */
 	int getPosition ();
-
-private:
-
-
-	void initAttributes () ;
 
 };
 

@@ -4,38 +4,10 @@
 //  
 
 Lcd::Lcd () {
-initAttributes();
+
 }
 
 Lcd::~Lcd () { }
-
-//  
-// Methods
-//  
-
-
-// Accessor methods
-//  
-
-
-// Public static attribute accessor methods
-//  
-
-
-// Public attribute accessor methods
-//  
-
-
-// Protected static attribute accessor methods
-//  
-
-
-// Protected attribute accessor methods
-//  
-
-
-// Private static attribute accessor methods
-//  
 
 
 // Private attribute accessor methods
@@ -77,10 +49,3 @@ void Lcd::setTexte (string new_var) {
 string Lcd::getTexte () {
 	return texte;
 }
-
-// Other methods
-//  
-
-void Lcd::initAttributes () {
-}
-

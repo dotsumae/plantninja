@@ -28,44 +28,6 @@ public:
 	 */
 	virtual ~Lcd ();
 
-	// Static Public attributes
-	//  
-
-	// Public attributes
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-	// Public attribute accessor methods
-	//  
-
-
-protected:
-
-	// Static Protected attributes
-	//  
-
-	// Protected attributes
-	//  
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
-
-public:
-
-
-	// Protected attribute accessor methods
-	//  
-
-protected:
 
 
 private:
@@ -80,13 +42,6 @@ private:
 	char couleur[3];
 	// Texte affiche sur l'ecran.
 	string texte;
-public:
-
-
-	// Private attribute accessor methods
-	//  
-
-private:
 
 public:
 
@@ -124,10 +79,6 @@ public:
 	 */
 	string getTexte ();
 
-private:
-
-
-	void initAttributes () ;
 
 };
 
