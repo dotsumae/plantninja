@@ -60,7 +60,7 @@ int Peripherique::getPin () {
  * 1 si actif.
  * @param new_var the new value of etat
  */
-void Peripherique::setEtat (boolean new_var) {
+void Peripherique::setEtat (bool new_var) {
 	etat = new_var;
 }
 
@@ -71,7 +71,7 @@ void Peripherique::setEtat (boolean new_var) {
  * 1 si actif.
  * @return the value of etat
  */
-boolean Peripherique::getEtat () {
+bool Peripherique::getEtat () {
 	return etat;
 }
 
@@ -101,9 +101,9 @@ int* Peripherique::getIntervalle () {
 
 /**
  * Reinitialise le peripherique.
- * @return boolean
+ * @return bool
  */
-boolean Peripherique::reset ()
+bool Peripherique::reset ()
 {
 }
 

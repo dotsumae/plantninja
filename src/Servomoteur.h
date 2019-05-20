@@ -3,7 +3,7 @@
 #define SERVOMOTEUR_H
 #include "Peripherique.h"
 
-#include string
+#include <string>
 
 /**
   * class Servomoteur

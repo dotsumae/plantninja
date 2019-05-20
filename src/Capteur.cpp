@@ -20,7 +20,7 @@ Capteur::~Capteur () { }
  * - 0 si numerique
  * @param new_var the new value of analogique
  */
-void Capteur::setAnalogique (boolean new_var) {
+void Capteur::setAnalogique (bool new_var) {
 	analogique = new_var;
 }
 
@@ -31,7 +31,7 @@ void Capteur::setAnalogique (boolean new_var) {
  * - 0 si numerique
  * @return the value of analogique
  */
-boolean Capteur::getAnalogique () {
+bool Capteur::getAnalogique () {
 	return analogique;
 }
 

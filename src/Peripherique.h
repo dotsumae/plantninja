@@ -2,7 +2,7 @@
 #ifndef PERIPHERIQUE_H
 #define PERIPHERIQUE_H
 
-#include string
+#include <string>
 
 /**
   * class Peripherique
@@ -30,9 +30,9 @@ public:
 	
 	/**
 	 * Reinitialise le peripherique.
-	 * @return boolean
+	 * @return bool
 	 */
-	virtual boolean reset ();
+	virtual bool reset ();
 
 protected:
 
@@ -48,7 +48,7 @@ protected:
 	// Etat du peripherique.
 	// 0 si eteint.
 	// 1 si actif.
-	boolean etat;
+	bool etat;
 	// Intervalle de valeurs acceptees (actionneurs) ou renvoyees (capteurs) par le peripherique.
 	int intervalle[2];
 
@@ -100,7 +100,7 @@ public:
 	 * 1 si actif.
 	 * @param new_var the new value of etat
 	 */
-	void setEtat (boolean new_var);
+	void setEtat (bool new_var);
 
 	/**
 	 * Get the value of etat
@@ -109,7 +109,7 @@ public:
 	 * 1 si actif.
 	 * @return the value of etat
 	 */
-	boolean getEtat ();
+	bool getEtat ();
 
 
 	/**

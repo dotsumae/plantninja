@@ -3,7 +3,8 @@
 #define CAPTEUR_H
 #include "Peripherique.h"
 
-#include string
+#include <string>
+#include <vector>
 
 /**
   * class Capteur
@@ -42,7 +43,7 @@ private:
 	// Nature du capteur : 
 	// - 1 si analogique
 	// - 0 si numerique
-	boolean analogique;
+	bool analogique;
 	// Mesures recentes du capteur. La valeur est toujours normalisee.
 	vector<float> mesures;
 
@@ -61,7 +62,7 @@ public:
 	 * - 0 si numerique
 	 * @param new_var the new value of analogique
 	 */
-	void setAnalogique (boolean new_var);
+	void setAnalogique (bool new_var);
 
 	/**
 	 * Get the value of analogique
@@ -70,7 +71,7 @@ public:
 	 * - 0 si numerique
 	 * @return the value of analogique
 	 */
-	boolean getAnalogique ();
+	bool getAnalogique ();
 
 
 	/**
